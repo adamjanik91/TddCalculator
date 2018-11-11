@@ -2,25 +2,25 @@
 {
     public static class Math
     {
-        public static dynamic Add(dynamic a, dynamic b)
+        public static long Add(long a, long b)
         {
             var result = a + b;
             return result;
         }
 
-        public static dynamic Subtract(dynamic a, dynamic b)
+        public static long Subtract(long a, long b)
         {
             var result = a - b;
             return result;
         }
 
-        public static dynamic Divide(dynamic a, dynamic b)
+        public static long Divide(long a, long b)
         {
             var result = a / b;
             return result;
         }
 
-        public static dynamic Multiply(dynamic a, dynamic b)
+        public static long Multiply(long a, long b)
         {
             var result = a * b;
             return result;
